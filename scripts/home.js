@@ -105,5 +105,4 @@ navArrow.addEventListener("click", function () {
 onscroll = (e) => {
   nav.classList.remove("show");
   navArrow.classList.remove("down");
-  console.log("hi");
 };
