@@ -1,0 +1,68 @@
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+.reset-a {
+  text-decoration: none;
+  color: black;
+}
+.center-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s-cb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  border: none;
+  outline: border;
+  cursor: pointer;
+}
+.m-cb {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  outline: border;
+  cursor: pointer;
+}
+.b-cb {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  outline: border;
+  cursor: pointer;
+}
+/* start container */
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .container {
+    width: 90%;
+  }
+}
+/* end container */
